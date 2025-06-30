@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Complaint Form</title>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/complaint.js"></script>
+</head>
+<body>
+  <h2>Submit Complaint</h2>
+  <input type="text" id="title" placeholder="Title"><br>
+  <textarea id="description" placeholder="Description"></textarea><br>
+  <button onclick="submitComplaint()">Submit</button>
+</body>
+</html>
